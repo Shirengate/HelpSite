@@ -1,0 +1,141 @@
+* {
+    font-family: 'Russo One';
+    font-weight:100;
+    
+
+}
+h1 {
+    position: absolute;
+    right: 60%;
+    top: 20%;
+    font-size: 50px;
+}
+.sample{
+    display: inline;
+    position: absolute;
+    color: rgb(95,95,95);
+    top: 38%;
+    left: 17%;
+    line-height: 0;
+    margin-top: 0px;
+    z-index: 1;
+}  
+.sample:hover{
+    opacity:0.5;
+}
+.sampleTable{
+    position: absolute;
+    border: 1px solid white;
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: rgb(26, 72, 254);
+    bottom: 25%;
+    left: 17%;
+    color:rgb(26, 72, 254) ;
+    transition: all 2s;
+}
+.sampleTable:hover{
+    transition: all 2s;
+    border-radius: 25%;
+    color: white;
+   
+}
+.sample::after{
+    content: url('стрелка.gif');
+    position: relative;
+    display: block;
+    top:0;
+    left: 200px;
+    top:-14px;
+    transform: scale(0.7);
+    z-index: -1;
+
+    
+
+}
+.timeWork {
+    position: relative;
+    left: 45px;
+    top:30px;
+    font-size: 35px;
+
+}
+
+.time{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    left: 45px;
+}
+section{
+    border: 1px solid white;
+    height: 550px;
+    width: 450px;
+    position: absolute;
+    right: 25%;
+    top: 16.5%;
+    background-color: rgb(242, 242, 242);
+    border-radius: 10px;
+    transition: all 2s;
+}
+
+section:hover{
+    transition: all 2s;
+    border-radius: 18%;
+    
+}
+input {
+    position: relative;
+    border-radius: 30px;
+    border: none;
+    height: 45px;
+    width: 79%;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+}  
+label {
+    color: rgb(41, 41, 41);
+}
+input.name{
+    top: 70px;
+    right: 20px;
+}
+.lname{
+    position: relative;
+    left: 35px;
+    top: 25px;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+.email{
+    position: relative;
+    top: 100px;
+    left: 35px;
+}
+.iemail{
+    top: 150px;
+    right: 20px;
+    
+}
+
+    
+.msg{
+    position: relative;
+    top: 120px;
+    left: 35px;
+}
+.messg{
+    height: 150px;
+    position: relative;
+    top: 220px;
+    right: 45px;
+}
+ .submit {
+    position: relative;
+    top: 240px;
+    left: 50px;
+    background-color: rgb(26, 72, 254);
+    color: white;
+} 
